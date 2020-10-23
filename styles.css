@@ -40,18 +40,18 @@ header nav ul li{
 
 header nav ul li a{
   text-decoration: none;
-  color: #000;
+  color: #6b7280;
 }
 
 header nav ul li a:hover{
-  color: rgb(103, 104, 196);
+  color: #5A67D8;
 }
 
 .overview-hero .container{
   background: rgb(210, 207, 210);
   display: flex;
   flex-direction: row;
-  min-height: 200px;
+  min-height: 280px;
   max-height: 300px;
   padding-top: 40px;
   margin-top: 10px;
@@ -59,12 +59,22 @@ header nav ul li a:hover{
 }
 
 .overview-hero-image img{
-  width: 50%;
+  padding: 10px;
+  width: 70%;
   height: auto;
+  padding-left: 15%;
 }
 
-.overview-hero-text h2,p{
-  font-weight: 100;
+.overview-hero-text h2{
+  padding-top: 40px;
+  font-weight: 550;
+}
+.overview-hero-text p{
+  font-weight: 300;
+}
+.overview-hero-text h2{
+  color: #48BB78;
+  font-size: 24px !important;
 }
 
 .learn-about .container .cards{
@@ -79,7 +89,15 @@ header nav ul li a:hover{
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
+  border: 1px solid #E2E8F0;
   max-width: 25%;
+  transition: 0.3s;
+}
+
+.learn-about .container .cards .card:hover{
+  margin-bottom: 5px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
 .learn-about .container .cards img{
@@ -87,6 +105,10 @@ header nav ul li a:hover{
   height: auto;
 }
 
+.learn-about .container .card h3{
+  font-size: 21px;
+  color: #48BB78;
+}
 .learn-about .container .card:nth-of-type(1) h3{
   margin-top: 80px;
 }
@@ -99,7 +121,7 @@ header nav ul li a:hover{
 
 .testing .container{
   color: #fff;
-  background: rgb(62, 62, 62);
+  background: #4A5568;
   display: flex;
   flex-direction: row;
   margin-top: 50px;
@@ -120,7 +142,7 @@ header nav ul li a:hover{
 .testing .container .cta button{
   border: none;
   border-radius: 5px;
-  background: rgb(123, 210, 119);
+  background: #48BB78;
   color: #fff;
   font-size: 1.1em;
   font-weight: 500;
@@ -130,4 +152,85 @@ header nav ul li a:hover{
 
 .testing .container .cta button:hover{
   cursor: pointer;
+}
+
+.stories .container{
+  display: flex;
+  flex-direction: column;
+}
+
+.stories .container h2{
+  margin-bottom: 50px;
+  color: #5A67D8;
+  font-size: 18px;
+}
+
+.stories .container article{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.stories .container article img{
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.stories .container article a{
+  text-decoration: none;
+  color: rgb(7, 196, 208);
+}
+
+.newsletter .container{
+  background: #48BB78;
+  color: #fff;
+  min-height: 280px;
+  margin-top: 60px !important;
+}
+
+.newsletter .container h3 {
+  padding-top: 40px !important;
+  text-align: center;
+  padding: 5px 21%;
+}
+
+.newsletter .container p{
+  padding: 0 21%;
+}
+
+.newsletter .container form{
+  display: flex;
+  flex-direction: row;
+  padding: 0 21%;
+  gap: 10px;
+}
+.newsletter .container input{
+  font-size: 0.9em;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+.newsletter .container button{
+  color: #fff;
+  background: #5A67D8;
+  font-size: 18px;
+  font-weight: 500;
+  height: 50px;
+  width: 180px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer .container{
+    background: #4A5568;
+    height: 100px;
+    color: #fff;
+}
+
+footer p{
+  margin-top: 0;
+  padding-top: 40px;
 }
