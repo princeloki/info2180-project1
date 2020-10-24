@@ -48,7 +48,7 @@ header nav ul li a:hover{
 }
 
 .overview-hero .container{
-  background: rgb(210, 207, 210);
+  background: #e9ebf2;
   display: flex;
   flex-direction: row;
   min-height: 280px;
@@ -73,10 +73,12 @@ header nav ul li a:hover{
   font-weight: 300;
 }
 .overview-hero-text h2{
-  color: #48BB78;
   font-size: 24px !important;
 }
 
+.learn-about .container h2{
+    color: #48BB78;
+}
 .learn-about .container .cards{
   display: flex;
   flex-direction: row;
@@ -223,7 +225,16 @@ header nav ul li a:hover{
   border: none;
   border-radius: 5px;
 }
-
+.newsletter .container button:hover{
+  cursor: pointer;
+}
+.newsletter .message h2{
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
 footer .container{
     background: #4A5568;
     height: 100px;
